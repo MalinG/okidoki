@@ -1,20 +1,21 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Selection.module.css'
 import { exercises } from '../excercises.json'
-import ExerciseCard from '../components/ExerciseCard'
+import {ExtendedExerciseCard} from '../components/ExerciseCard'
 import { usePersistedState } from '../hooks/usePersistedState'
 import Link from 'next/link'
-import { useEffect } from 'react'
 
 export default function Home() {
-  const [selectedExercises, setSelectedExercises] = usePersistedState("selectedExercises", [])
+  const [selectedExercises] = usePersistedState("selectedExercises", [])
   // const [store, setStore] = usePersistedState("selectedExercises", [])
 
-  useEffect(() => {
-    console.log('updating')
-  })
+  const selection = exercises.filter(x => selectedExercises.includes(x.id));
+
+  console.log(selection)
+
   const handleAddOrRemoveExercise = (id) => {
     const updatedSelection = selectedExercises.includes(id) ? selectedExercises.filter(x => x !== id) : [...selectedExercises, id];
+    console.log(id, updatedSelection);
     setSelectedExercises(updatedSelection);
   }
 
@@ -27,19 +28,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Välj övningar
+          Min workout
         </h1>
 
-        {/* <button onClick={() => setSelectedExercises([])}>Rensa</button> */}
-
-        <Link href="/selection">
-          <a className={`${styles.button} bg-green`}>Klart!</a>
-        </Link>
-
         <ul className={styles.list}>
-          {exercises.map(item => <ExerciseCard key={item.id} {...item} addOrRemoveExercise={handleAddOrRemoveExercise} />)}
+          {selection.map(item => <ExtendedExerciseCard key={item.id} {...item} />)}
         </ul>
-
       </main>
     </div>
   )

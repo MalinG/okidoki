@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #120052;
+  color: white;
 }
 
 a {
@@ -13,4 +15,18 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.bg-green {
+  background-color: #019e81;
+}
+
+.bg-pink {
+  background-color: #f237db;
+}
+.bg-purple {
+  background-color: #8a2be2;
+}
+.bg-dark {
+  background-color: #120052;
 }

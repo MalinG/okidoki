@@ -1,0 +1,283 @@
+{
+  "exercises": [
+    {
+      "title": "Armhävningar med benböj/sträck",
+      "id": 2,
+      "types": [],
+      "Equipment": "No"
+    },
+    {
+      "title": "Armhävningar nudda motsatt fot",
+      "id": 3,
+      "types": [],
+      "Equipment": "No"
+    },
+    {
+      "title": "Boxning högt tempo",
+      "id": 4,
+      "types": [],
+      "Equipment": "No"
+    },
+    {
+      "title": "Burpees med hantel/kettelbell marklyft",
+      "id": 5,
+      "types": ["Hela kroppen"],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Burpees med sidoslide",
+      "id": 6,
+      "types": ["Hela kroppen"],
+      "Equipment": "No"
+    },
+    {
+      "title": "Cykelcrunches",
+      "id": 7,
+      "types": [],
+      "Equipment": "No"
+    },
+    {
+      "title": "Dips",
+      "id": 8,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Enbenshopp på stepbräda",
+      "id": 9,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Framåtböjd hantelrodd",
+      "id": 10,
+      "types": ["Överkropp"],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Framåtlutad rodd med skivstång",
+      "id": 11,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": [
+        "Fötter på pilatesboll",
+        "kryp ihop - sträck ut"
+      ],
+      "id": 12,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Hopprep höga knän eller",
+      "id": 13,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Hoppsquats med vändning",
+      "id": 14,
+      "types": [],
+      "Equipment": "No"
+    },
+    {
+      "title": "Höftlyft fötter mot vägg",
+      "id": 15,
+      "types": [],
+      "Equipment": "No"
+    },
+    {
+      "title": "Hög planka upp och ner med fötter på bänk",
+      "id": 16,
+      "types": ["Core"],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Hög planks jumping jacks",
+      "id": 17,
+      "types": [],
+      "Equipment": "No"
+    },
+    {
+      "title": "Kast i golv med medicinboll",
+      "id": 18,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Kettelbell swing",
+      "id": 19,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "knäspark på säck",
+      "id": 20,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Lunge-burpee",
+      "id": 21,
+      "types": [],
+      "Equipment": "No"
+    },
+    {
+      "title": "Medicinboll halo slam",
+      "id": 22,
+      "types": ["Hela kroppen"],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Raka armar fram och ut med hantlar",
+      "id": 23,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Rygglyft snurra vikt runt kroppen",
+      "id": 25,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Sidoplanka med rull",
+      "id": 26,
+      "types": ["Core"],
+      "Equipment": "No"
+    },
+    {
+      "title": "Situps - hand mot häl diagonalt",
+      "id": 28,
+      "types": [],
+      "Equipment": "No"
+    },
+    {
+      "title": "Slägga med gummiband",
+      "id": 29,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Smala/raka armhävningar",
+      "id": 30,
+      "types": [],
+      "Equipment": "No"
+    },
+    {
+      "title": "Snabba sidohopp på stepbräda",
+      "id": 31,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Sneda armhävningar",
+      "id": 32,
+      "types": [
+        "Core",
+        "Överkropp"
+      ],
+      "Equipment": "No"
+    },
+    {
+      "title": "Squathopp framåt",
+      "id": 33,
+      "types": [],
+      "Equipment": "No"
+    },
+    {
+      "title": "Squathopp stepbräda",
+      "id": 34,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Squatpress med vikt",
+      "id": 35,
+      "types": [
+        "Ben/Rumpa",
+        "Hela kroppen"
+      ],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Squats med mellanhopp på stepbräda",
+      "id": 36,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Superman",
+      "id": 38,
+      "types": [],
+      "Equipment": "No"
+    },
+    {
+      "title": "Svingkast mediboll",
+      "id": 39,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Up Downs",
+      "id": 40,
+      "types": [],
+      "Equipment": "No"
+    },
+    {
+      "title": "Utfallhopp med box + hantlar",
+      "id": 41,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Vindrutetorkare",
+      "id": 42,
+      "types": ["Core"],
+      "Equipment": "No"
+    },
+    {
+      "title": "X-situps",
+      "id": 43,
+      "types": [],
+      "Equipment": "No"
+    },
+    {
+      "title": "Yx-lunges",
+      "id": 44,
+      "types": [
+        "Ben/Rumpa",
+        "Hela kroppen"
+      ],
+      "Equipment": "No"
+    },
+    {
+      "title": "Armhävning med rull",
+      "id": 1,
+      "types": [
+        "Core",
+        "Överkropp"
+      ],
+      "Equipment": "No"
+    },
+    {
+      "title": "Ryggdrag nedåt med gummiband",
+      "id": 24,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Squats till axelpress",
+      "id": 37,
+      "types": [],
+      "Equipment": "Yes"
+    },
+    {
+      "title": "Situps med medicinboll",
+      "id": 27,
+      "types": [],
+      "Equipment": "Yes"
+    }
+  ]
+}
