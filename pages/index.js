@@ -32,8 +32,8 @@ export default function Home() {
 
         {/* <button onClick={() => setSelectedExercises([])}>Rensa</button> */}
 
-        <Link href="/selection">
-          <a className={`${styles.button} bg-green`}>Klart!</a>
+        <Link className={`${styles.button} bg-green`} href="/selection">
+          Klart!
         </Link>
 
         <ul className={styles.list}>
